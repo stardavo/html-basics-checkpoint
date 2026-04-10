@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dave — Développeur Web</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#"><strong>Dave.dev</strong></a> |
+    <a href="#hero">Accueil</a> |
+    <a href="#about">À propos</a>
+    <a href="#skills">Services</a> |
+    <a href="#resume">CV</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <hr>
+
+  <!-- HERO -->
+  <section id="hero">
+    <h1>Salut, moi c'est Dave DIB</h1>
+    <p>Développeur web full-stack basé à Dakar.</p>
+    <p>Je conçois des applications modernes, performantes et accessibles.</p>
+    <br>
+    <a href="#contact">Me contacter</a>
+  </section>
+
+  <hr>
+
+  <!-- À PROPOS -->
+  <section id="about">
+    <h2>À propos</h2>
+    <p>
+      Passionné par le code depuis plus de 8 ans, je travaille avec des startups
+      et des entreprises pour transformer leurs idées en produits digitaux concrets.
+      J'aime le code propre, les interfaces simples et le café noir.
+    </p>
+  </section>
+
+  <hr>
+
+  <!-- SERVICES -->
+  <section id="skills">
+    <h2>Mes Services</h2>
+    <table border="1" cellpadding="8">
+      <tr>
+        <th>Domaine</th>
+        <th>Technologies</th>
+      </tr>
+      <tr>
+        <td>Front-end</td>
+        <td>HTML, CSS, JavaScript, React, Vue.js</td>
+      </tr>
+      <tr>
+        <td>Back-end</td>
+        <td>Node.js, Python, PHP, Express</td>
+      </tr>
+      <tr>
+        <td>Base de données</td>
+        <td>PostgreSQL, MongoDB, Redis</td>
+      </tr>
+      <tr>
+        <td>Outils</td>
+        <td>Git, Docker, CI/CD, Linux</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Un projet en tête ? Écrivez-moi !</p>
+    <br>
+    <form onsubmit="event.preventDefault(); alert('Merci pour votre message !');">
+      <label for="name">Nom :</label><br>
+      <input type="text" id="name" placeholder="Votre nom" required><br><br>
+
+      <label for="email">Email :</label><br>
+      <input type="email" id="email" placeholder="votre@email.com" required><br><br>
+
+      <label for="message">Message :</label><br>
+      <textarea id="message" rows="5" cols="40" placeholder="Votre message..."></textarea><br><br>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <hr>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Dave.dev — Tous droits réservés.</p>
+    <p>
+      <a href="https://github.com/stardavo">GitHub</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+
+</body>
+</html>
